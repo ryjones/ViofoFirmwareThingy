@@ -1,0 +1,20 @@
+[package]
+name = "viofo-fw"
+version = "0.1.0"
+edition = "2021"
+description = "Unpack and repack Novatek NVTPACK (NA51102) dashcam firmware, e.g. VIOFO A329S FWA329S.bin"
+license = "Apache-2.0"
+
+[[bin]]
+name = "viofo-fw"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+crc32fast = "1"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
+[profile.release]
+opt-level = 3

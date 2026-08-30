@@ -1,0 +1,9 @@
+/target
+/unpacked
+/rebuilt*.bin
+/FWA329S.bin
+*.asm
+*.elf
+.env
+/viofo_config.ini
+/re

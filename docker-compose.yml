@@ -1,0 +1,35 @@
+# UBI/UBIFS editing for the unpacked VIOFO A329S partitions.
+#
+#   echo "VIOFO_ROOT=$(pwd -P)" > .env         # once: physical path for the bind mount
+#   docker compose build                        # once (and after a VM kernel update)
+#   docker compose run --rm ubi                 # both volumes under ~/viofo
+#
+# `kmod` inserts nandsim/ubi/ubifs into the colima VM kernel from inside a
+# container, so the VM's own filesystem is never modified -- `colima restart`
+# undoes everything. `ubi` then does the userspace work in Alpine.
+
+services:
+  kmod:
+    build:
+      context: .
+      dockerfile: docker/kmod.Dockerfile
+    image: viofo-kmod
+    privileged: true          # insmod into the host (VM) kernel
+    network_mode: host
+
+  ubi:
+    build:
+      context: .
+      dockerfile: docker/ubi.Dockerfile
+    image: viofo-ubi
+    privileged: true          # mount ubifs, reach /dev/mtd* and /dev/ubi*
+    volumes:
+      - /dev:/dev             # the VM's devtmpfs: mtd0, ubi_ctrl, ubi0_0
+      - ${VIOFO_ROOT:-.}:/work
+    working_dir: /work
+    stdin_open: true
+    tty: true
+    entrypoint: ["/work/tools/ubi-container.sh"]
+    depends_on:
+      kmod:
+        condition: service_completed_successfully
