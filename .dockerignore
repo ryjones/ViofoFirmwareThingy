@@ -1,0 +1,7 @@
+# The images only need the scripts; keep the firmware and derived trees out of
+# the build context (they were making it ~180 MB).
+FWA329S.bin
+unpacked/
+re/
+target/
+.git/

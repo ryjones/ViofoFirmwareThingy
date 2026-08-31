@@ -36,6 +36,16 @@ Two companion documents record what is actually inside the partitions:
 * **[cardv-findings.md](cardv-findings.md)** — `/usr/bin/cardv`, the camera application:
   what is in it, the settings table that generates `viofo_config.ini`, and the routes to
   modifying it (including an SD-card override that needs no flashing).
+* **[cardv-re.md](cardv-re.md)** — tracing `cardv` further: the settings model and its
+  191 ids, the menu subsystem, the network API, and the finding that `viofo_config.ini`
+  is written but never read — plus where settings really live (a `SYSP` blob in the
+  pstore partition) and what to change in the rootfs to make ini edits take effect.
+  Ends with a list of open threads to pick up.
+* **[api-map.json](api-map.json)** — the camera's HTTP API, all 170 commands, read out
+  of `cardv`'s dispatch table rather than guessed: command number, the firmware setting
+  it reads and writes, the matching `viofo_config.ini` key, the handler, and whether the
+  call blocks. Regenerate with `CARDV=re/cardv python3 tools/re/dump_api_table.py --json api-map.json`;
+  the derivation is [cardv-re.md](cardv-re.md) §5.
 
 > **This can brick your camera.** A bad `loader`/`atf`/`uboot` leaves you needing a
 > hardware SPI flash programmer. U-Boot verifies each partition's checksum before it
@@ -466,6 +476,10 @@ README.md                 this file
 configuration.md          findings: the rootfs configuration
 application-findings.md   findings: application.dtb, the ISP tuning database
 cardv-findings.md         findings: the camera application and how to modify it
+cardv-re.md               findings: tracing settings, menus and the config flow
+tools/re/                 cross-reference helpers for the stripped cardv binary
+tools/cfgapply/           LD_PRELOAD shim that applies viofo_config.ini edits
+docker/re.Dockerfile      GNU binutils + capstone, for disassembling cardv
 src/checksum.rs           the Novatek checksum, and solving for a corrective word
 src/format.rs             NVTPACK header, partition table, CKSM / uImage / build-tag containers
 src/manifest.rs           manifest.toml schema

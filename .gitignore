@@ -7,3 +7,8 @@
 .env
 /viofo_config.ini
 /re
+__pycache__/
+*.pyc
+*.pkl
+*.dis
+*.so

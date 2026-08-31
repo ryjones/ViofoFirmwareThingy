@@ -1,0 +1,2260 @@
+{
+  "source": "cardv .data:0x110dc20",
+  "firmware": "VIOFO_A329S_V2.2_260815",
+  "table_records": 103,
+  "settings": [
+    {
+      "key": "Resolution",
+      "section": "Video Settings",
+      "order": 0,
+      "type": "int",
+      "record_index": 1,
+      "id": 26,
+      "help": "\n# 1 :4K 60fps (3840x2160P 60fps)\n# 2 :4K 21:9 60fps (3840x1600 60fps)\n# 3 :4K 30fps (3840x2160P 30fps)\n# 4 :4K 21:9 30fps (3840x1600 30fps)\n# 5 :2K 60fps (2560x1440P 60fps)\n# 7 :2K 30fps (2560x1440P 30fps)\n# 10 :1080P30 (1920x1080 30fps)\n# 11 :4K P60 + 2K P30 (Front + Interior, 3840x2160P 60fps + 2560x1440P 30fps)\n# 12 :4K P60 21:9 + 2K 21:9 (Front + Interior, 3840x1600 60fps + 2560x1080 30fps)\n# 13 :4K P60 21:9 + 2K 16:9 (Front + Interior, 3840x1600 60fps + 2560x1440 30fps)\n# 14 :4K P30 + 2K P30 (Front + Interior, 3840x2160P 30fps + 2560x1440P 30fps)\n# 15 :4K 21:9 + 2K 21:9 (Front + Interior, 3840x1600 30fps + 2560x1080 30fps)\n# 16 :4K 21:9 + 2K 16:9 (Front + Interior, 3840x1600 30fps + 2560x1440 30fps)\n# 17 :2K P60 + 2K P30 (Front + Interior, 2560x1440P 60fps + 2560x1440P 30fps)\n# 18 :2K P30 + 2K P30 (Front + Interior, 2560x1440P 30fps + 2560x1440P 30fps)\n# 21 :1080 P30 + 1080 P30 (Front + Interior, 1920x1080 30fps + 1920x1080 30fps)\n# 22 :4K P60 + 2K P30 (Front + Rear, 3840x2160P 60fps + 2560x1440P 30fps)\n# 23 :4K P60 21:9 + 2K 21:9 (Front + Rear, 3840x1600 60fps + 2560x1080 30fps)\n# 24 :4K P60 21:9 + 2K 16:9 (Front + Front Tele, 3840x1600 60fps + 2560x1440P 30fps)\n# 25 :4K P30 + 2K P30 (Front + Rear, 3840x2160P 30fps + 2560x1440P 30fps)\n# 26 :4K 21:9 + 2K 21:9 (Front + Rear, 3840x1600 30fps + 2560x1080 30fps)\n# 27 :4K 21:9 30fps + 2K 30fps 16:9(Front + Front Tele, 3840x1600 30fps + 2560x1440P 30fps)\n# 28 :2K P60 + 2K P30 (Front + Rear,  2560x1440P 60fps +  2560x1440P 30fps)\n# 29 :2K P30 + 2K P30 (Front + Rear, 2560x1440P 30fps +  2560x1440P 30fps)\n# 32 :1080 P30 + 1080 P30 (Front + Rear, 1920x1080 30fps + 1920x1080 30fps)\n# 33 :4K P30 + 2K P30 + 2K P30 (Front + Interior + Rear, 3840x2160 30fps + 2560x1440 30fps + 2560x1440 30fps)\n# 34 :4K 21:9 + 2K 21:9 + 2K 21:9 (Front + Interior + Rear, 3840x1600 30fps + 2560x1080 30fps + 2560x1080 30fps)\n# 35 :4K 21:9 + 2K 16:9 + 2K 16:9 (Front + Front Tele + Rear, 3840x1600 30fps + 2560x1440 30fps + 2560x1440 30fps)\n# 36 :2K P30 + 2K P30 + 2K P30 (Front + Interior + Rear, 2560x1440 30fps + 2560x1440 30fps + 2560x1440 30fps)\n# 37 :1080 P30 + 1080 P30 + 1080 P30 (Front + Interior + Rear, 1920x1080 30fps + 1920x1080 30fps + 1920x1080 30fps)",
+      "options": [
+        {
+          "value": 1,
+          "label": "4K 60fps (3840x2160P 60fps)"
+        },
+        {
+          "value": 2,
+          "label": "4K 21:9 60fps (3840x1600 60fps)"
+        },
+        {
+          "value": 3,
+          "label": "4K 30fps (3840x2160P 30fps)"
+        },
+        {
+          "value": 4,
+          "label": "4K 21:9 30fps (3840x1600 30fps)"
+        },
+        {
+          "value": 5,
+          "label": "2K 60fps (2560x1440P 60fps)"
+        },
+        {
+          "value": 7,
+          "label": "2K 30fps (2560x1440P 30fps)"
+        },
+        {
+          "value": 10,
+          "label": "1080P30 (1920x1080 30fps)"
+        },
+        {
+          "value": 11,
+          "label": "4K P60 + 2K P30 (Front + Interior, 3840x2160P 60fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 12,
+          "label": "4K P60 21:9 + 2K 21:9 (Front + Interior, 3840x1600 60fps + 2560x1080 30fps)"
+        },
+        {
+          "value": 13,
+          "label": "4K P60 21:9 + 2K 16:9 (Front + Interior, 3840x1600 60fps + 2560x1440 30fps)"
+        },
+        {
+          "value": 14,
+          "label": "4K P30 + 2K P30 (Front + Interior, 3840x2160P 30fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 15,
+          "label": "4K 21:9 + 2K 21:9 (Front + Interior, 3840x1600 30fps + 2560x1080 30fps)"
+        },
+        {
+          "value": 16,
+          "label": "4K 21:9 + 2K 16:9 (Front + Interior, 3840x1600 30fps + 2560x1440 30fps)"
+        },
+        {
+          "value": 17,
+          "label": "2K P60 + 2K P30 (Front + Interior, 2560x1440P 60fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 18,
+          "label": "2K P30 + 2K P30 (Front + Interior, 2560x1440P 30fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 21,
+          "label": "1080 P30 + 1080 P30 (Front + Interior, 1920x1080 30fps + 1920x1080 30fps)"
+        },
+        {
+          "value": 22,
+          "label": "4K P60 + 2K P30 (Front + Rear, 3840x2160P 60fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 23,
+          "label": "4K P60 21:9 + 2K 21:9 (Front + Rear, 3840x1600 60fps + 2560x1080 30fps)"
+        },
+        {
+          "value": 24,
+          "label": "4K P60 21:9 + 2K 16:9 (Front + Front Tele, 3840x1600 60fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 25,
+          "label": "4K P30 + 2K P30 (Front + Rear, 3840x2160P 30fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 26,
+          "label": "4K 21:9 + 2K 21:9 (Front + Rear, 3840x1600 30fps + 2560x1080 30fps)"
+        },
+        {
+          "value": 27,
+          "label": "4K 21:9 30fps + 2K 30fps 16:9(Front + Front Tele, 3840x1600 30fps + 2560x1440P 30fps)"
+        },
+        {
+          "value": 28,
+          "label": "2K P60 + 2K P30 (Front + Rear,  2560x1440P 60fps +  2560x1440P 30fps)"
+        },
+        {
+          "value": 29,
+          "label": "2K P30 + 2K P30 (Front + Rear, 2560x1440P 30fps +  2560x1440P 30fps)"
+        },
+        {
+          "value": 32,
+          "label": "1080 P30 + 1080 P30 (Front + Rear, 1920x1080 30fps + 1920x1080 30fps)"
+        },
+        {
+          "value": 33,
+          "label": "4K P30 + 2K P30 + 2K P30 (Front + Interior + Rear, 3840x2160 30fps + 2560x1440 30fps + 2560x1440 30fps)"
+        },
+        {
+          "value": 34,
+          "label": "4K 21:9 + 2K 21:9 + 2K 21:9 (Front + Interior + Rear, 3840x1600 30fps + 2560x1080 30fps + 2560x1080 30fps)"
+        },
+        {
+          "value": 35,
+          "label": "4K 21:9 + 2K 16:9 + 2K 16:9 (Front + Front Tele + Rear, 3840x1600 30fps + 2560x1440 30fps + 2560x1440 30fps)"
+        },
+        {
+          "value": 36,
+          "label": "2K P30 + 2K P30 + 2K P30 (Front + Interior + Rear, 2560x1440 30fps + 2560x1440 30fps + 2560x1440 30fps)"
+        },
+        {
+          "value": 37,
+          "label": "1080 P30 + 1080 P30 + 1080 P30 (Front + Interior + Rear, 1920x1080 30fps + 1920x1080 30fps + 1920x1080 30fps)"
+        }
+      ]
+    },
+    {
+      "key": "Video Bitrate",
+      "section": "Video Settings",
+      "order": 1,
+      "type": "int",
+      "record_index": 2,
+      "id": 161,
+      "help": "0:Low; 1:Normal; 2:High; 3:Maximum",
+      "options": [
+        {
+          "value": 0,
+          "label": "Low"
+        },
+        {
+          "value": 1,
+          "label": "Normal"
+        },
+        {
+          "value": 2,
+          "label": "High"
+        },
+        {
+          "value": 3,
+          "label": "Maximum"
+        }
+      ]
+    },
+    {
+      "key": "Dewarp Front Cam",
+      "section": "Video Settings",
+      "order": 2,
+      "type": "int",
+      "record_index": 3,
+      "id": 235,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Loop Recording",
+      "section": "Video Settings",
+      "order": 3,
+      "type": "int",
+      "record_index": 4,
+      "id": 34,
+      "help": "0:Off; 1:1 Minute; 2: 2 Minutes; 3: 3 Minutes; 4: 5 Minutes; 5: 10 Minutes",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "1 Minute"
+        },
+        {
+          "value": 2,
+          "label": "2 Minutes"
+        },
+        {
+          "value": 3,
+          "label": "3 Minutes"
+        },
+        {
+          "value": 4,
+          "label": "5 Minutes"
+        },
+        {
+          "value": 5,
+          "label": "10 Minutes"
+        }
+      ]
+    },
+    {
+      "key": "Record Audio",
+      "section": "Video Settings",
+      "order": 4,
+      "type": "int",
+      "record_index": 5,
+      "id": 36,
+      "help": "0:Off; 1:On; 2:Only On while Parking",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Only On while Parking"
+        }
+      ]
+    },
+    {
+      "key": "G-sensor",
+      "section": "Video Settings",
+      "order": 5,
+      "type": "int",
+      "record_index": 6,
+      "id": 149,
+      "help": "0:Off; 1:Low; 2:Medium; 3:High",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Low"
+        },
+        {
+          "value": 2,
+          "label": "Medium"
+        },
+        {
+          "value": 3,
+          "label": "High"
+        }
+      ]
+    },
+    {
+      "key": "Time-lapse Recording",
+      "section": "Video Settings",
+      "order": 6,
+      "type": "int",
+      "record_index": 7,
+      "id": 38,
+      "help": "0: Off; 1: Timelapse 1 fps; 2: Timelapse 2 fps; 3: Timelapse 3 fps; 4: Timelapse 5 fps; 5: Timelapse 10 fps",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Timelapse 1 fps"
+        },
+        {
+          "value": 2,
+          "label": "Timelapse 2 fps"
+        },
+        {
+          "value": 3,
+          "label": "Timelapse 3 fps"
+        },
+        {
+          "value": 4,
+          "label": "Timelapse 5 fps"
+        },
+        {
+          "value": 5,
+          "label": "Timelapse 10 fps"
+        }
+      ]
+    },
+    {
+      "key": "Interior Cam Fisheye Mode",
+      "section": "Video Settings",
+      "order": 7,
+      "type": "int",
+      "record_index": 8,
+      "id": 217,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "IR LED",
+      "section": "Video Settings",
+      "order": 8,
+      "type": "int",
+      "record_index": 9,
+      "id": 39,
+      "help": "0:Off; 1:On; 2: Auto",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Auto"
+        }
+      ]
+    },
+    {
+      "key": "Interior Camera",
+      "section": "Video Settings",
+      "order": 9,
+      "type": "int",
+      "record_index": 10,
+      "id": 210,
+      "help": "0:Off; 1:On; 2:Only On while Driving; 3:Only On while Parking",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Only On while Driving"
+        },
+        {
+          "value": 3,
+          "label": "Only On while Parking"
+        }
+      ]
+    },
+    {
+      "key": "Rear Camera",
+      "section": "Video Settings",
+      "order": 10,
+      "type": "int",
+      "record_index": 11,
+      "id": 224,
+      "help": "0:Off; 1:On; 2:Only On while Driving; 3:Only On while Parking",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Only On while Driving"
+        },
+        {
+          "value": 3,
+          "label": "Only On while Parking"
+        }
+      ]
+    },
+    {
+      "key": "Multiplex Video",
+      "section": "Video Settings",
+      "order": 11,
+      "type": "int",
+      "record_index": 12,
+      "id": 222,
+      "help": "0:Off; 1:Front+Interior; 2:Front+Rear; 3:Front+Interior+Rear",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Front+Interior"
+        },
+        {
+          "value": 2,
+          "label": "Front+Rear"
+        },
+        {
+          "value": 3,
+          "label": "Front+Interior+Rear"
+        }
+      ]
+    },
+    {
+      "key": "Live Video Source",
+      "section": "Video Settings",
+      "order": 12,
+      "type": "int",
+      "record_index": 13,
+      "id": 17,
+      "help": "\n# 8:Front Camera; 9:Interior Camera; 10:Rear Camera\n# 12:Rear/Interior/Tele Overlaid; 13:Front Overlaid; 14:All Camera",
+      "options": [
+        {
+          "value": 8,
+          "label": "Front Camera"
+        },
+        {
+          "value": 9,
+          "label": "Interior Camera"
+        },
+        {
+          "value": 10,
+          "label": "Rear Camera"
+        },
+        {
+          "value": 12,
+          "label": "Rear/Interior/Tele Overlaid"
+        },
+        {
+          "value": 13,
+          "label": "Front Overlaid"
+        },
+        {
+          "value": 14,
+          "label": "All Camera"
+        }
+      ]
+    },
+    {
+      "key": "Privacy Mode",
+      "section": "Video Settings",
+      "order": 13,
+      "type": "int",
+      "record_index": 14,
+      "id": 206,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Vehicle Battery Protection",
+      "section": "Parking Recording",
+      "order": 14,
+      "type": "int",
+      "record_index": 17,
+      "id": 218,
+      "help": "0:Cut-off time; 1:Cut-off Voltage; 2: Cut-off BP100 Capacity",
+      "options": [
+        {
+          "value": 0,
+          "label": "Cut-off time"
+        },
+        {
+          "value": 1,
+          "label": "Cut-off Voltage"
+        },
+        {
+          "value": 2,
+          "label": "Cut-off BP100 Capacity"
+        }
+      ]
+    },
+    {
+      "key": "Cut-off time",
+      "section": "Parking Recording",
+      "order": 15,
+      "type": "int",
+      "record_index": 18,
+      "id": 154,
+      "help": "0: Off; 1: 30 Minutes; 2: 1 Hour; 3: 2 Hours; 4: 3 Hours; 5: 4 Hours; 6: 6 Hours; 7: 8 Hours; 8: 12 Hours; 9: 24 Hours; 10: 48 Hours",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "30 Minutes"
+        },
+        {
+          "value": 2,
+          "label": "1 Hour"
+        },
+        {
+          "value": 3,
+          "label": "2 Hours"
+        },
+        {
+          "value": 4,
+          "label": "3 Hours"
+        },
+        {
+          "value": 5,
+          "label": "4 Hours"
+        },
+        {
+          "value": 6,
+          "label": "6 Hours"
+        },
+        {
+          "value": 7,
+          "label": "8 Hours"
+        },
+        {
+          "value": 8,
+          "label": "12 Hours"
+        },
+        {
+          "value": 9,
+          "label": "24 Hours"
+        },
+        {
+          "value": 10,
+          "label": "48 Hours"
+        }
+      ]
+    },
+    {
+      "key": "Cut-off Voltage",
+      "section": "Parking Recording",
+      "order": 16,
+      "type": "int",
+      "record_index": 19,
+      "id": 220,
+      "help": "0:Off; 1:12.4V/24.8V; 2:12.2V/24.4V; 3:12.0V/24.0V",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "12.4V/24.8V"
+        },
+        {
+          "value": 2,
+          "label": "12.2V/24.4V"
+        },
+        {
+          "value": 3,
+          "label": "12.0V/24.0V"
+        }
+      ]
+    },
+    {
+      "key": "Cut-off BP100 Capacity",
+      "section": "Parking Recording",
+      "order": 17,
+      "type": "int",
+      "record_index": 20,
+      "id": 233,
+      "help": "0:Off; 1:5%; 2:8%; 3:10%; 4:15%",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "5%"
+        },
+        {
+          "value": 2,
+          "label": "8%"
+        },
+        {
+          "value": 3,
+          "label": "10%"
+        },
+        {
+          "value": 4,
+          "label": "15%"
+        }
+      ]
+    },
+    {
+      "key": "Parking Mode",
+      "section": "Parking Recording",
+      "order": 18,
+      "type": "int",
+      "record_index": 21,
+      "id": 151,
+      "help": "0: Off; 1:Hybrid Parking mode; 2:Low Power Impact Detection; 3: Low Bitrate Recording; 4: Auto Event Detection; 5: Timelapse 1fps (Night Vision); 6: Timelapse 1 fps; 7: Timelapse 2 fps; 8: Timelapse 3 fps; 9: Timelapse 5 fps; 10: Timelapse 10 fps",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Hybrid Parking mode"
+        },
+        {
+          "value": 2,
+          "label": "Low Power Impact Detection"
+        },
+        {
+          "value": 3,
+          "label": "Low Bitrate Recording"
+        },
+        {
+          "value": 4,
+          "label": "Auto Event Detection"
+        },
+        {
+          "value": 5,
+          "label": "Timelapse 1fps (Night Vision)"
+        },
+        {
+          "value": 6,
+          "label": "Timelapse 1 fps"
+        },
+        {
+          "value": 7,
+          "label": "Timelapse 2 fps"
+        },
+        {
+          "value": 8,
+          "label": "Timelapse 3 fps"
+        },
+        {
+          "value": 9,
+          "label": "Timelapse 5 fps"
+        },
+        {
+          "value": 10,
+          "label": "Timelapse 10 fps"
+        }
+      ]
+    },
+    {
+      "key": "Hybrid Parking mode",
+      "section": "Parking Recording",
+      "order": 19,
+      "type": "int",
+      "record_index": 22,
+      "id": 221,
+      "help": "0:Low Bitrate->Impact; 1: Event Detection->Impact; 2: Timelapse 1fps (SNV)->Impact; 3: Timelapse 1 fps->Impact; 4: Timelapse 2 fps->Impact; 5: Timelapse 3 fps->Impact; 6: Timelapse 5 fps->Impact; 7: Timelapse 10 fps->Impact",
+      "options": [
+        {
+          "value": 0,
+          "label": "Low Bitrate->Impact"
+        },
+        {
+          "value": 1,
+          "label": "Event Detection->Impact"
+        },
+        {
+          "value": 2,
+          "label": "Timelapse 1fps (SNV)->Impact"
+        },
+        {
+          "value": 3,
+          "label": "Timelapse 1 fps->Impact"
+        },
+        {
+          "value": 4,
+          "label": "Timelapse 2 fps->Impact"
+        },
+        {
+          "value": 5,
+          "label": "Timelapse 3 fps->Impact"
+        },
+        {
+          "value": 6,
+          "label": "Timelapse 5 fps->Impact"
+        },
+        {
+          "value": 7,
+          "label": "Timelapse 10 fps->Impact"
+        }
+      ]
+    },
+    {
+      "key": "Enter Parking Mode Timer",
+      "section": "Parking Recording",
+      "order": 20,
+      "type": "int",
+      "record_index": 23,
+      "id": 153,
+      "help": "0:Off; 1:90 Seconds",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "90 Seconds"
+        }
+      ]
+    },
+    {
+      "key": "Parking G-sensor",
+      "section": "Parking Recording",
+      "order": 21,
+      "type": "int",
+      "record_index": 24,
+      "id": 150,
+      "help": "1:Low; 2:Medium; 3:High",
+      "options": [
+        {
+          "value": 1,
+          "label": "Low"
+        },
+        {
+          "value": 2,
+          "label": "Medium"
+        },
+        {
+          "value": 3,
+          "label": "High"
+        }
+      ]
+    },
+    {
+      "key": "Parking Motion Detection",
+      "section": "Parking Recording",
+      "order": 22,
+      "type": "int",
+      "record_index": 25,
+      "id": 152,
+      "help": "1:Low; 2:Medium; 3:High",
+      "options": [
+        {
+          "value": 1,
+          "label": "Low"
+        },
+        {
+          "value": 2,
+          "label": "Medium"
+        },
+        {
+          "value": 3,
+          "label": "High"
+        }
+      ]
+    },
+    {
+      "key": "Parking GPS",
+      "section": "Parking Recording",
+      "order": 23,
+      "type": "int",
+      "record_index": 26,
+      "id": 199,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Parking HDR",
+      "section": "Parking Recording",
+      "order": 24,
+      "type": "int",
+      "record_index": 27,
+      "id": 203,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Parking Recording Storage",
+      "section": "Parking Recording",
+      "order": 25,
+      "type": "int",
+      "record_index": 28,
+      "id": 215,
+      "help": "0:SD; 1:SSD; 2:SSD->SD",
+      "options": [
+        {
+          "value": 0,
+          "label": "SD"
+        },
+        {
+          "value": 1,
+          "label": "SSD"
+        },
+        {
+          "value": 2,
+          "label": "SSD->SD"
+        }
+      ]
+    },
+    {
+      "key": "Geofencing",
+      "section": "Parking Recording",
+      "order": 26,
+      "type": "int",
+      "record_index": 29,
+      "id": 226,
+      "help": "0: Off; 1: Zone1; 2: Zone2; 3: Zone(1+2); 4: Zone3; 5: Zone(1+3); 6: Zone(2+3); 7: Zone(1+2+3)",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Zone1"
+        },
+        {
+          "value": 2,
+          "label": "Zone2"
+        },
+        {
+          "value": 3,
+          "label": "Zone(1+2)"
+        },
+        {
+          "value": 4,
+          "label": "Zone3"
+        },
+        {
+          "value": 5,
+          "label": "Zone(1+3)"
+        },
+        {
+          "value": 6,
+          "label": "Zone(2+3)"
+        },
+        {
+          "value": 7,
+          "label": "Zone(1+2+3)"
+        }
+      ]
+    },
+    {
+      "key": "Parking Impact Notification",
+      "section": "Parking Recording",
+      "order": 27,
+      "type": "int",
+      "record_index": 30,
+      "id": 227,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Backup Impact Parking Videos",
+      "section": "Parking Recording",
+      "order": 28,
+      "type": "int",
+      "record_index": 31,
+      "id": 228,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Low Power Impact Recording",
+      "section": "Parking Recording",
+      "order": 29,
+      "type": "int",
+      "record_index": 32,
+      "id": 236,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "HDR Front",
+      "section": "HDR",
+      "order": 30,
+      "type": "int",
+      "record_index": 35,
+      "id": 29,
+      "help": "0:Off; 1:On; 2: Auto HDR Timer",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Auto HDR Timer"
+        }
+      ]
+    },
+    {
+      "key": "HDR Rear",
+      "section": "HDR",
+      "order": 31,
+      "type": "int",
+      "record_index": 36,
+      "id": 202,
+      "help": "0:Off; 1:On; 2: Auto HDR Timer",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Auto HDR Timer"
+        }
+      ]
+    },
+    {
+      "key": "HDR Interior",
+      "section": "HDR",
+      "order": 32,
+      "type": "int",
+      "record_index": 37,
+      "id": 201,
+      "help": "0:Off; 1:On; 2: Auto HDR Timer",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Auto HDR Timer"
+        }
+      ]
+    },
+    {
+      "key": "Auto HDR Timer Start",
+      "section": "HDR",
+      "order": 33,
+      "type": "time",
+      "record_index": 38,
+      "buffer": "0x11dfab8",
+      "buffer_length": 8,
+      "help": "Time format 24H: hh:mm:ss"
+    },
+    {
+      "key": "Auto HDR Timer Stop",
+      "section": "HDR",
+      "order": 34,
+      "type": "time",
+      "record_index": 39,
+      "buffer": "0x11dfac4",
+      "buffer_length": 8,
+      "help": "Time format 24H: hh:mm:ss"
+    },
+    {
+      "key": "EV Front",
+      "section": "Exposure Value",
+      "order": 35,
+      "type": "int",
+      "record_index": 42,
+      "id": 163,
+      "help": "0: +2.0; 1: +1.6; 2: +1.3; 3: +1.0; 4: +0.6; 5: +0.3; 6: +0.0; 7: -0.3; 8: -0.6; 9: -1.0; 10: -1.3; 11: -1.6; 12: -2.0",
+      "options": [
+        {
+          "value": 0,
+          "label": "+2.0"
+        },
+        {
+          "value": 1,
+          "label": "+1.6"
+        },
+        {
+          "value": 2,
+          "label": "+1.3"
+        },
+        {
+          "value": 3,
+          "label": "+1.0"
+        },
+        {
+          "value": 4,
+          "label": "+0.6"
+        },
+        {
+          "value": 5,
+          "label": "+0.3"
+        },
+        {
+          "value": 6,
+          "label": "+0.0"
+        },
+        {
+          "value": 7,
+          "label": "-0.3"
+        },
+        {
+          "value": 8,
+          "label": "-0.6"
+        },
+        {
+          "value": 9,
+          "label": "-1.0"
+        },
+        {
+          "value": 10,
+          "label": "-1.3"
+        },
+        {
+          "value": 11,
+          "label": "-1.6"
+        },
+        {
+          "value": 12,
+          "label": "-2.0"
+        }
+      ]
+    },
+    {
+      "key": "EV Interior",
+      "section": "Exposure Value",
+      "order": 36,
+      "type": "int",
+      "record_index": 43,
+      "id": 164,
+      "help": "0: +2.0; 1: +1.6; 2: +1.3; 3: +1.0; 4: +0.6; 5: +0.3; 6: +0.0; 7: -0.3; 8: -0.6; 9: -1.0; 10: -1.3; 11: -1.6; 12: -2.0",
+      "options": [
+        {
+          "value": 0,
+          "label": "+2.0"
+        },
+        {
+          "value": 1,
+          "label": "+1.6"
+        },
+        {
+          "value": 2,
+          "label": "+1.3"
+        },
+        {
+          "value": 3,
+          "label": "+1.0"
+        },
+        {
+          "value": 4,
+          "label": "+0.6"
+        },
+        {
+          "value": 5,
+          "label": "+0.3"
+        },
+        {
+          "value": 6,
+          "label": "+0.0"
+        },
+        {
+          "value": 7,
+          "label": "-0.3"
+        },
+        {
+          "value": 8,
+          "label": "-0.6"
+        },
+        {
+          "value": 9,
+          "label": "-1.0"
+        },
+        {
+          "value": 10,
+          "label": "-1.3"
+        },
+        {
+          "value": 11,
+          "label": "-1.6"
+        },
+        {
+          "value": 12,
+          "label": "-2.0"
+        }
+      ]
+    },
+    {
+      "key": "EV Rear",
+      "section": "Exposure Value",
+      "order": 37,
+      "type": "int",
+      "record_index": 44,
+      "id": 165,
+      "help": "0: +2.0; 1: +1.6; 2: +1.3; 3: +1.0; 4: +0.6; 5: +0.3; 6: +0.0; 7: -0.3; 8: -0.6; 9: -1.0; 10: -1.3; 11: -1.6; 12: -2.0",
+      "options": [
+        {
+          "value": 0,
+          "label": "+2.0"
+        },
+        {
+          "value": 1,
+          "label": "+1.6"
+        },
+        {
+          "value": 2,
+          "label": "+1.3"
+        },
+        {
+          "value": 3,
+          "label": "+1.0"
+        },
+        {
+          "value": 4,
+          "label": "+0.6"
+        },
+        {
+          "value": 5,
+          "label": "+0.3"
+        },
+        {
+          "value": 6,
+          "label": "+0.0"
+        },
+        {
+          "value": 7,
+          "label": "-0.3"
+        },
+        {
+          "value": 8,
+          "label": "-0.6"
+        },
+        {
+          "value": 9,
+          "label": "-1.0"
+        },
+        {
+          "value": 10,
+          "label": "-1.3"
+        },
+        {
+          "value": 11,
+          "label": "-1.6"
+        },
+        {
+          "value": 12,
+          "label": "-2.0"
+        }
+      ]
+    },
+    {
+      "key": "Date Stamp",
+      "section": "Stamp",
+      "order": 38,
+      "type": "int",
+      "record_index": 47,
+      "id": 178,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "GPS Speed Stamp",
+      "section": "Stamp",
+      "order": 39,
+      "type": "int",
+      "record_index": 48,
+      "id": 181,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "GPS Coordinates Stamp",
+      "section": "Stamp",
+      "order": 40,
+      "type": "int",
+      "record_index": 49,
+      "id": 182,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Custom Stamp",
+      "section": "Stamp",
+      "order": 41,
+      "type": "int",
+      "record_index": 50,
+      "id": 183,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "License Plate Stamp",
+      "section": "Stamp",
+      "order": 42,
+      "type": "int",
+      "record_index": 51,
+      "id": 184,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Logo Stamp",
+      "section": "Stamp",
+      "order": 43,
+      "type": "int",
+      "record_index": 52,
+      "id": 185,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Brand Model Stamp",
+      "section": "Stamp",
+      "order": 44,
+      "type": "int",
+      "record_index": 53,
+      "id": 167,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Resolution Stamp",
+      "section": "Stamp",
+      "order": 45,
+      "type": "int",
+      "record_index": 54,
+      "id": 198,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Vehicle Voltage Stamp",
+      "section": "Stamp",
+      "order": 46,
+      "type": "int",
+      "record_index": 55,
+      "id": 225,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Battery pack Capacity Stamp",
+      "section": "Stamp",
+      "order": 47,
+      "type": "int",
+      "record_index": 56,
+      "id": 237,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Stamp Text Color",
+      "section": "Stamp",
+      "order": 48,
+      "type": "int",
+      "record_index": 57,
+      "id": 207,
+      "help": "0:White ; 1:Yellow; 2:Cyan; 3:Golden",
+      "options": [
+        {
+          "value": 0,
+          "label": "White"
+        },
+        {
+          "value": 1,
+          "label": "Yellow"
+        },
+        {
+          "value": 2,
+          "label": "Cyan"
+        },
+        {
+          "value": 3,
+          "label": "Golden"
+        }
+      ]
+    },
+    {
+      "key": "Custom Text Stamp",
+      "section": "Stamp",
+      "order": 49,
+      "type": "text",
+      "record_index": 58,
+      "buffer": "0x11df9ec",
+      "buffer_length": 32,
+      "help": "Maximum length: 11 characters",
+      "max_length": 11
+    },
+    {
+      "key": "License Plate Number",
+      "section": "Stamp",
+      "order": 50,
+      "type": "text",
+      "record_index": 59,
+      "buffer": "0x11df9cc",
+      "buffer_length": 32,
+      "help": "Maximum length: 11 characters",
+      "max_length": 11
+    },
+    {
+      "key": "Interior Image Rotate",
+      "section": "Image Rotate & Mirror",
+      "order": 51,
+      "type": "int",
+      "record_index": 62,
+      "id": 172,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Interior Image Mirror",
+      "section": "Image Rotate & Mirror",
+      "order": 52,
+      "type": "int",
+      "record_index": 63,
+      "id": 175,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Rear Image Rotate",
+      "section": "Image Rotate & Mirror",
+      "order": 53,
+      "type": "int",
+      "record_index": 64,
+      "id": 171,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Rear Image Mirror",
+      "section": "Image Rotate & Mirror",
+      "order": 54,
+      "type": "int",
+      "record_index": 65,
+      "id": 174,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Wi-Fi",
+      "section": "System Settings",
+      "order": 55,
+      "type": "int",
+      "record_index": 68,
+      "id": 129,
+      "help": "0: Off; 1: On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Wi-Fi Frequency",
+      "section": "System Settings",
+      "order": 56,
+      "type": "int",
+      "record_index": 69,
+      "id": 169,
+      "help": "1: 2.4G; 2: 5G",
+      "options": [
+        {
+          "value": 1,
+          "label": "2.4G"
+        },
+        {
+          "value": 2,
+          "label": "5G"
+        }
+      ]
+    },
+    {
+      "key": "Time Zone",
+      "section": "System Settings",
+      "order": 57,
+      "type": "int",
+      "record_index": 70,
+      "id": 145,
+      "help": "\n# 1: GMT-12; 2: GMT-11; 3: GMT-10; 4: GMT-9; 5: GMT-8\n# 6: GMT-7; 7: GMT-6; 8: GMT-5; 10: GMT-4\n# 11: GMT-3:30; 12: GMT-3; 13: GMT-2:30; 14: GMT-2; 15: GMT-1\n# 16: GMT+0; 17: GMT+1; 18: GMT+2; 19: GMT+3; 20: GMT+3:30\n# 21: GMT+4; 22: GMT+4:30; 23: GMT+5; 24: GMT+5:30\n# 26: GMT+6; 27: GMT+6:30; 28: GMT+7; 29: GMT+8; 30: GMT+9\n# 31: GMT+9:30; 32: GMT+10; 33: GMT+10:30; 34: GMT+11; 35: GMT+12\n# 37: GMT+13",
+      "options": [
+        {
+          "value": 1,
+          "label": "GMT-12"
+        },
+        {
+          "value": 2,
+          "label": "GMT-11"
+        },
+        {
+          "value": 3,
+          "label": "GMT-10"
+        },
+        {
+          "value": 4,
+          "label": "GMT-9"
+        },
+        {
+          "value": 5,
+          "label": "GMT-8"
+        },
+        {
+          "value": 6,
+          "label": "GMT-7"
+        },
+        {
+          "value": 7,
+          "label": "GMT-6"
+        },
+        {
+          "value": 8,
+          "label": "GMT-5"
+        },
+        {
+          "value": 10,
+          "label": "GMT-4"
+        },
+        {
+          "value": 11,
+          "label": "GMT-3:30"
+        },
+        {
+          "value": 12,
+          "label": "GMT-3"
+        },
+        {
+          "value": 13,
+          "label": "GMT-2:30"
+        },
+        {
+          "value": 14,
+          "label": "GMT-2"
+        },
+        {
+          "value": 15,
+          "label": "GMT-1"
+        },
+        {
+          "value": 16,
+          "label": "GMT+0"
+        },
+        {
+          "value": 17,
+          "label": "GMT+1"
+        },
+        {
+          "value": 18,
+          "label": "GMT+2"
+        },
+        {
+          "value": 19,
+          "label": "GMT+3"
+        },
+        {
+          "value": 20,
+          "label": "GMT+3:30"
+        },
+        {
+          "value": 21,
+          "label": "GMT+4"
+        },
+        {
+          "value": 22,
+          "label": "GMT+4:30"
+        },
+        {
+          "value": 23,
+          "label": "GMT+5"
+        },
+        {
+          "value": 24,
+          "label": "GMT+5:30"
+        },
+        {
+          "value": 26,
+          "label": "GMT+6"
+        },
+        {
+          "value": 27,
+          "label": "GMT+6:30"
+        },
+        {
+          "value": 28,
+          "label": "GMT+7"
+        },
+        {
+          "value": 29,
+          "label": "GMT+8"
+        },
+        {
+          "value": 30,
+          "label": "GMT+9"
+        },
+        {
+          "value": 31,
+          "label": "GMT+9:30"
+        },
+        {
+          "value": 32,
+          "label": "GMT+10"
+        },
+        {
+          "value": 33,
+          "label": "GMT+10:30"
+        },
+        {
+          "value": 34,
+          "label": "GMT+11"
+        },
+        {
+          "value": 35,
+          "label": "GMT+12"
+        },
+        {
+          "value": 37,
+          "label": "GMT+13"
+        }
+      ]
+    },
+    {
+      "key": "Time Format",
+      "section": "System Settings",
+      "order": 58,
+      "type": "int",
+      "record_index": 71,
+      "id": 65,
+      "help": "0: 24H; 1: 12H",
+      "options": [
+        {
+          "value": 0,
+          "label": "24H"
+        },
+        {
+          "value": 1,
+          "label": "12H"
+        }
+      ]
+    },
+    {
+      "key": "Daylight Saving",
+      "section": "System Settings",
+      "order": 59,
+      "type": "int",
+      "record_index": 72,
+      "id": 160,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Boot Delay",
+      "section": "System Settings",
+      "order": 60,
+      "type": "int",
+      "record_index": 73,
+      "id": 168,
+      "help": "0:Off; 1: 5 Seconds; 2:10 Seconds",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "5 Seconds"
+        },
+        {
+          "value": 2,
+          "label": "10 Seconds"
+        }
+      ]
+    },
+    {
+      "key": "Driving Recording Storage",
+      "section": "System Settings",
+      "order": 61,
+      "type": "int",
+      "record_index": 74,
+      "id": 195,
+      "help": "0:SD; 1:SSD",
+      "options": [
+        {
+          "value": 0,
+          "label": "SD"
+        },
+        {
+          "value": 1,
+          "label": "SSD"
+        }
+      ]
+    },
+    {
+      "key": "Beep Sound",
+      "section": "System Settings",
+      "order": 62,
+      "type": "int",
+      "record_index": 75,
+      "id": 56,
+      "help": "0:Off; 1:Only Keytone; 2:Only Boot Sound; 3:All",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "Only Keytone"
+        },
+        {
+          "value": 2,
+          "label": "Only Boot Sound"
+        },
+        {
+          "value": 3,
+          "label": "All"
+        }
+      ]
+    },
+    {
+      "key": "Voice Notification",
+      "section": "System Settings",
+      "order": 63,
+      "type": "int",
+      "record_index": 76,
+      "id": 157,
+      "help": "0:Off; 1:On; 2:Only Critical Alerts",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        },
+        {
+          "value": 2,
+          "label": "Only Critical Alerts"
+        }
+      ]
+    },
+    {
+      "key": "Voice Notification Volume",
+      "section": "System Settings",
+      "order": 64,
+      "type": "int",
+      "record_index": 77,
+      "id": 113,
+      "help": "0:Low; 1:Medium; 2:High",
+      "options": [
+        {
+          "value": 0,
+          "label": "Low"
+        },
+        {
+          "value": 1,
+          "label": "Medium"
+        },
+        {
+          "value": 2,
+          "label": "High"
+        }
+      ]
+    },
+    {
+      "key": "Voice Control",
+      "section": "System Settings",
+      "order": 65,
+      "type": "int",
+      "record_index": 78,
+      "id": 159,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "GPS",
+      "section": "System Settings",
+      "order": 66,
+      "type": "int",
+      "record_index": 79,
+      "id": 146,
+      "help": "0:Off; 1:On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Speed Units",
+      "section": "System Settings",
+      "order": 67,
+      "type": "int",
+      "record_index": 80,
+      "id": 147,
+      "help": "0:MPH; 1:km/h",
+      "options": [
+        {
+          "value": 0,
+          "label": "MPH"
+        },
+        {
+          "value": 1,
+          "label": "km/h"
+        }
+      ]
+    },
+    {
+      "key": "Screen Saver",
+      "section": "System Settings",
+      "order": 68,
+      "type": "int",
+      "record_index": 81,
+      "id": 109,
+      "help": "2:3 Seconds; 3:15 Seconds; 4:30 Seconds; 5:1 Minute; 6:3 Minutes",
+      "options": [
+        {
+          "value": 2,
+          "label": "3 Seconds"
+        },
+        {
+          "value": 3,
+          "label": "15 Seconds"
+        },
+        {
+          "value": 4,
+          "label": "30 Seconds"
+        },
+        {
+          "value": 5,
+          "label": "1 Minute"
+        },
+        {
+          "value": 6,
+          "label": "3 Minutes"
+        }
+      ]
+    },
+    {
+      "key": "Frequency",
+      "section": "System Settings",
+      "order": 69,
+      "type": "int",
+      "record_index": 82,
+      "id": 58,
+      "help": "0:50 Hz; 1:60 Hz",
+      "options": [
+        {
+          "value": 0,
+          "label": "50 Hz"
+        },
+        {
+          "value": 1,
+          "label": "60 Hz"
+        }
+      ]
+    },
+    {
+      "key": "Format Reminder",
+      "section": "System Settings",
+      "order": 70,
+      "type": "int",
+      "record_index": 83,
+      "id": 156,
+      "help": "0:Off; 1:15 Days; 2:30 Days; 3:60 Days",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "15 Days"
+        },
+        {
+          "value": 2,
+          "label": "30 Days"
+        },
+        {
+          "value": 3,
+          "label": "60 Days"
+        }
+      ]
+    },
+    {
+      "key": "Mic Button",
+      "section": "Bluetooth Button Function",
+      "order": 71,
+      "type": "int",
+      "record_index": 86,
+      "id": 191,
+      "help": "\n# 2:Turn On / Off Microphone; 3:Take a Photo; 4:Turn On / Off WiFi; 5:Power Off; 6:Switch to Timelapse Recording\n# 7:Turn On / Off HDR; 8:Parking Mode; 9: Turn On / Off Rear Cam; 10: Turn On / Off Interior Cam; 11: Wi-Fi Station Mode; 12: Switch Live Video Source",
+      "options": [
+        {
+          "value": 2,
+          "label": "Turn On / Off Microphone"
+        },
+        {
+          "value": 3,
+          "label": "Take a Photo"
+        },
+        {
+          "value": 4,
+          "label": "Turn On / Off WiFi"
+        },
+        {
+          "value": 5,
+          "label": "Power Off"
+        },
+        {
+          "value": 6,
+          "label": "Switch to Timelapse Recording"
+        },
+        {
+          "value": 7,
+          "label": "Turn On / Off HDR"
+        },
+        {
+          "value": 8,
+          "label": "Parking Mode"
+        },
+        {
+          "value": 9,
+          "label": "Turn On / Off Rear Cam"
+        },
+        {
+          "value": 10,
+          "label": "Turn On / Off Interior Cam"
+        },
+        {
+          "value": 11,
+          "label": "Wi-Fi Station Mode"
+        },
+        {
+          "value": 12,
+          "label": "Switch Live Video Source"
+        }
+      ]
+    },
+    {
+      "key": "Action Button",
+      "section": "Bluetooth Button Function",
+      "order": 72,
+      "type": "int",
+      "record_index": 87,
+      "id": 192,
+      "help": "\n# 2:Turn On / Off WiFi; 3:Take a Photo; 4:Turn On / Off Microphone; 5:Power Off; 6:Switch to Timelapse Recording\n# 7:Turn On / Off HDR; 8:Parking Mode; 9: Turn On / Off Rear Cam; 10: Turn On / Off Interior Cam; 11: Wi-Fi Station Mode; 12: Switch Live Video Source",
+      "options": [
+        {
+          "value": 2,
+          "label": "Turn On / Off WiFi"
+        },
+        {
+          "value": 3,
+          "label": "Take a Photo"
+        },
+        {
+          "value": 4,
+          "label": "Turn On / Off Microphone"
+        },
+        {
+          "value": 5,
+          "label": "Power Off"
+        },
+        {
+          "value": 6,
+          "label": "Switch to Timelapse Recording"
+        },
+        {
+          "value": 7,
+          "label": "Turn On / Off HDR"
+        },
+        {
+          "value": 8,
+          "label": "Parking Mode"
+        },
+        {
+          "value": 9,
+          "label": "Turn On / Off Rear Cam"
+        },
+        {
+          "value": 10,
+          "label": "Turn On / Off Interior Cam"
+        },
+        {
+          "value": 11,
+          "label": "Wi-Fi Station Mode"
+        },
+        {
+          "value": 12,
+          "label": "Switch Live Video Source"
+        }
+      ]
+    },
+    {
+      "key": "Front LED",
+      "section": "LED",
+      "order": 73,
+      "type": "int",
+      "record_index": 90,
+      "id": 177,
+      "help": "0: All Off; 1: All On; 2: Power LED Only",
+      "options": [
+        {
+          "value": 0,
+          "label": "All Off"
+        },
+        {
+          "value": 1,
+          "label": "All On"
+        },
+        {
+          "value": 2,
+          "label": "Power LED Only"
+        }
+      ]
+    },
+    {
+      "key": "Rear LED",
+      "section": "LED",
+      "order": 74,
+      "type": "int",
+      "record_index": 91,
+      "id": 211,
+      "help": "0: Off; 1: On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Interior LED",
+      "section": "LED",
+      "order": 75,
+      "type": "int",
+      "record_index": 92,
+      "id": 212,
+      "help": "0: Off; 1: On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Front Parking LED",
+      "section": "Parking Mode LED",
+      "order": 76,
+      "type": "int",
+      "record_index": 95,
+      "id": 179,
+      "help": "0: All Off; 1: All On; 2: Power LED Only",
+      "options": [
+        {
+          "value": 0,
+          "label": "All Off"
+        },
+        {
+          "value": 1,
+          "label": "All On"
+        },
+        {
+          "value": 2,
+          "label": "Power LED Only"
+        }
+      ]
+    },
+    {
+      "key": "Rear Parking LED",
+      "section": "Parking Mode LED",
+      "order": 77,
+      "type": "int",
+      "record_index": 96,
+      "id": 213,
+      "help": "0: Off; 1: On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "Interior Parking LED",
+      "section": "Parking Mode LED",
+      "order": 78,
+      "type": "int",
+      "record_index": 97,
+      "id": 214,
+      "help": "0: Off; 1: On",
+      "options": [
+        {
+          "value": 0,
+          "label": "Off"
+        },
+        {
+          "value": 1,
+          "label": "On"
+        }
+      ]
+    },
+    {
+      "key": "STA mode SSID",
+      "section": "Wi-Fi Station Mode",
+      "order": 79,
+      "type": "text",
+      "record_index": 100,
+      "buffer": "0x11df992",
+      "buffer_length": 32,
+      "help": "Maximum length: 20 characters",
+      "max_length": 20
+    },
+    {
+      "key": "STA mode password",
+      "section": "Wi-Fi Station Mode",
+      "order": 80,
+      "type": "text",
+      "record_index": 101,
+      "buffer": "0x11df9b2",
+      "buffer_length": 26,
+      "help": "Maximum length: 20 characters",
+      "max_length": 20
+    }
+  ]
+}

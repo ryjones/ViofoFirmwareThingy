@@ -1,0 +1,1834 @@
+[
+ {
+  "cmd": 1001,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetPictureEnd",
+  "handler_addr": "0x449770",
+  "dispatch": "http",
+  "blocks_on": "0x2"
+ },
+ {
+  "cmd": 1003,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4492b0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2001,
+  "setting_id": 24,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeMovieRec",
+  "handler_addr": "0x4450a0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x4"
+ },
+ {
+  "cmd": 2002,
+  "setting_id": 25,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetMovieRecSize",
+  "handler_addr": "0x445270",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2003,
+  "setting_id": 34,
+  "ini_keys": [
+   "Loop Recording"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeCyclicRec",
+  "handler_addr": "0x445320",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2004,
+  "setting_id": 28,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeMovieWDR",
+  "handler_addr": "0x4453b0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 2005,
+  "setting_id": 5,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4455b0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2006,
+  "setting_id": 35,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetMotionDet",
+  "handler_addr": "0x445790",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2007,
+  "setting_id": 36,
+  "ini_keys": [
+   "Record Audio"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetMovieAudio",
+  "handler_addr": "0x444d60",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2008,
+  "setting_id": 178,
+  "ini_keys": [
+   "Date Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetMovieDateImprint",
+  "handler_addr": "0x444df0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2009,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4492d0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2011,
+  "setting_id": 149,
+  "ini_keys": [
+   "G-sensor"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetMovieGSesnorSensitivity",
+  "handler_addr": "0x444e80",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2012,
+  "setting_id": 134,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetAutoRecording",
+  "handler_addr": "0x4458a0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2013,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x445920",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2014,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x445a00",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2016,
+  "setting_id": 24,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetMovieRecStatus",
+  "handler_addr": "0x449920",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2017,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeTriggerMovieRawEnc",
+  "handler_addr": "0x444f80",
+  "dispatch": "wificmd",
+  "blocks_on": "0x40"
+ },
+ {
+  "cmd": 2018,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetRawEncJpg",
+  "handler_addr": "0x4486f0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2019,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x447b80",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2020,
+  "setting_id": 46,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x445600",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2021,
+  "setting_id": 47,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x445650",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2022,
+  "setting_id": 48,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4456a0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2023,
+  "setting_id": 40,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4456f0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2024,
+  "setting_id": 49,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x445740",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 2025,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x445030",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3001,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeModeChange",
+  "handler_addr": "0x441870",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 3002,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_QueryCmd",
+  "handler_addr": "0x447830",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3003,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441c30",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3004,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetPassphrase",
+  "handler_addr": "0x441ce0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3005,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x444930",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3006,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4448a0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3007,
+  "setting_id": 55,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441a00",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3008,
+  "setting_id": 57,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441a40",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3009,
+  "setting_id": 59,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeTV",
+  "handler_addr": "0x441800",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3010,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4429a0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x10"
+ },
+ {
+  "cmd": 3011,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441de0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x80"
+ },
+ {
+  "cmd": 3012,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x448bf0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3013,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441dc0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x20"
+ },
+ {
+  "cmd": 3014,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_QueryCmd_CurSts",
+  "handler_addr": "0x448d10",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3015,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x447c70",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3016,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x449270",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3017,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x449320",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3018,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441e60",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3019,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4498b0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3021,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441ee0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3022,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x449900",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3023,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441f00",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3024,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4499d0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3025,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x449bf0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3026,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x449c20",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3028,
+  "setting_id": 17,
+  "ini_keys": [
+   "Live Video Source"
+  ],
+  "section": "Video Settings",
+  "handler": null,
+  "handler_addr": "0x441f20",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3029,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44a1d0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3030,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44a280",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3031,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetMenuItem",
+  "handler_addr": "0x44a820",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3032,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSendSSIDPassphrase",
+  "handler_addr": "0x443a90",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3033,
+  "setting_id": 128,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441a80",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3034,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_AutoTestCmdDone",
+  "handler_addr": "0x44aca0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3037,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetCntModeStatus",
+  "handler_addr": "0x449ab0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 3038,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x449cf0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 4001,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetThumbnail",
+  "handler_addr": "0x447f50",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 4002,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetThumbnail",
+  "handler_addr": "0x447f50",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 4005,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetMovieFileInfo",
+  "handler_addr": "0x448960",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 4003,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "System_LockOrUnlockOneFile",
+  "handler_addr": "0x449380",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 4004,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4495e0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 5001,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_UploadFile",
+  "handler_addr": "0x44ada0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8003,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b220",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8004,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b050",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8053,
+  "setting_id": 113,
+  "ini_keys": [
+   "Voice Notification Volume"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetBeepVolume",
+  "handler_addr": "0x4428e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8058,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b470",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8200,
+  "setting_id": 162,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetVideoBitrate",
+  "handler_addr": "0x442270",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8201,
+  "setting_id": 169,
+  "ini_keys": [
+   "Wi-Fi Frequency"
+  ],
+  "section": "System Settings",
+  "handler": null,
+  "handler_addr": "0x443650",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8202,
+  "setting_id": 17,
+  "ini_keys": [
+   "Live Video Source"
+  ],
+  "section": "Video Settings",
+  "handler": null,
+  "handler_addr": "0x441f20",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8203,
+  "setting_id": 39,
+  "ini_keys": [
+   "IR LED"
+  ],
+  "section": "Video Settings",
+  "handler": null,
+  "handler_addr": "0x4419d0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8204,
+  "setting_id": 150,
+  "ini_keys": [
+   "Parking G-sensor"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeParkGsensorSens",
+  "handler_addr": "0x442b40",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8205,
+  "setting_id": 151,
+  "ini_keys": [
+   "Parking Mode"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeParkingMode",
+  "handler_addr": "0x4421b0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8206,
+  "setting_id": 38,
+  "ini_keys": [
+   "Time-lapse Recording"
+  ],
+  "section": "Video Settings",
+  "handler": null,
+  "handler_addr": "0x441b80",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8207,
+  "setting_id": 152,
+  "ini_keys": [
+   "Parking Motion Detection"
+  ],
+  "section": "Parking Recording",
+  "handler": null,
+  "handler_addr": "0x441bc0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8208,
+  "setting_id": 146,
+  "ini_keys": [
+   "GPS"
+  ],
+  "section": "System Settings",
+  "handler": null,
+  "handler_addr": "0x441fd0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8209,
+  "setting_id": 147,
+  "ini_keys": [
+   "Speed Units"
+  ],
+  "section": "System Settings",
+  "handler": null,
+  "handler_addr": "0x442000",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8210,
+  "setting_id": 148,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x442030",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8211,
+  "setting_id": 63,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetDateFormat",
+  "handler_addr": "0x442bc0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8212,
+  "setting_id": 145,
+  "ini_keys": [
+   "Time Zone"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetZone",
+  "handler_addr": "0x443720",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8213,
+  "setting_id": 167,
+  "ini_keys": [
+   "Brand Model Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeCameraModelStamp",
+  "handler_addr": "0x442c10",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8214,
+  "setting_id": 56,
+  "ini_keys": [
+   "Beep Sound"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeBeep",
+  "handler_addr": "0x442c60",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8215,
+  "setting_id": 58,
+  "ini_keys": [
+   "Frequency"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeFrequency",
+  "handler_addr": "0x442cb0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8216,
+  "setting_id": 40,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSensorRotate",
+  "handler_addr": "0x4437a0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8217,
+  "setting_id": 173,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeFlipMirror",
+  "handler_addr": "0x443c90",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8218,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x444150",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8219,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x444050",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8220,
+  "setting_id": 5,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WifiCmdExe_CheckArgsType",
+  "handler_addr": "0x4445e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8222,
+  "setting_id": 26,
+  "ini_keys": [
+   "Resolution"
+  ],
+  "section": "Video Settings",
+  "handler": "WifiCmdExe_CheckArgsType",
+  "handler_addr": "0x4449e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8223,
+  "setting_id": 168,
+  "ini_keys": [
+   "Boot Delay"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetBootDelay",
+  "handler_addr": "0x442d00",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8224,
+  "setting_id": 170,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetSensor1Rotate",
+  "handler_addr": "0x4426a0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8226,
+  "setting_id": 171,
+  "ini_keys": [
+   "Rear Image Rotate"
+  ],
+  "section": "Image Rotate & Mirror",
+  "handler": "WiFiCmd_OnExeSetSensor2Rotate",
+  "handler_addr": "0x442700",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8225,
+  "setting_id": 172,
+  "ini_keys": [
+   "Interior Image Rotate"
+  ],
+  "section": "Image Rotate & Mirror",
+  "handler": "WiFiCmd_OnExeSetSensor3Rotate",
+  "handler_addr": "0x442760",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8230,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x442320",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8231,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x441830",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8228,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b340",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8229,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b3e0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8232,
+  "setting_id": 154,
+  "ini_keys": [
+   "Cut-off time"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeParkModeTimer",
+  "handler_addr": "0x443810",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8233,
+  "setting_id": 153,
+  "ini_keys": [
+   "Enter Parking Mode Timer"
+  ],
+  "section": "Parking Recording",
+  "handler": null,
+  "handler_addr": "0x444860",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9220,
+  "setting_id": 174,
+  "ini_keys": [
+   "Rear Image Mirror"
+  ],
+  "section": "Image Rotate & Mirror",
+  "handler": "WiFiCmd_OnExeSetSensor2Mirror",
+  "handler_addr": "0x4427c0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9219,
+  "setting_id": 175,
+  "ini_keys": [
+   "Interior Image Mirror"
+  ],
+  "section": "Image Rotate & Mirror",
+  "handler": "WiFiCmd_OnExeSetSensor3Mirror",
+  "handler_addr": "0x442820",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9221,
+  "setting_id": 157,
+  "ini_keys": [
+   "Voice Notification"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetVoiceReport",
+  "handler_addr": "0x442d50",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8234,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_SetParkModeRange",
+  "handler_addr": "0x44b6a0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9222,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b7f0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9223,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44b820",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8250,
+  "setting_id": 109,
+  "ini_keys": [
+   "Screen Saver"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetAutoLcdOff",
+  "handler_addr": "0x442880",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9224,
+  "setting_id": 177,
+  "ini_keys": [
+   "Front LED"
+  ],
+  "section": "LED",
+  "handler": "WiFiCmd_OnExeSetLED",
+  "handler_addr": "0x442da0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9226,
+  "setting_id": 179,
+  "ini_keys": [
+   "Front Parking LED"
+  ],
+  "section": "Parking Mode LED",
+  "handler": "WiFiCmd_OnExeSetParkingMonitorLED",
+  "handler_addr": "0x442df0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8260,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_Get_Sensor_Status",
+  "handler_addr": "0x44bd70",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8251,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x443f90",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8252,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44beb0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9229,
+  "setting_id": 185,
+  "ini_keys": [
+   "Logo Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetWaterLogo",
+  "handler_addr": "0x442e40",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9230,
+  "setting_id": 183,
+  "ini_keys": [
+   "Custom Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetCustomStamp",
+  "handler_addr": "0x443140",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9231,
+  "setting_id": 184,
+  "ini_keys": [
+   "License Plate Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetCarnumberStamp",
+  "handler_addr": "0x443190",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8006,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_GetAiSpeechActiveInfo",
+  "handler_addr": "0x44ba40",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 8007,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetAiSpeechActiveInfo",
+  "handler_addr": "0x442370",
+  "dispatch": "wificmd",
+  "blocks_on": "0x100"
+ },
+ {
+  "cmd": 9227,
+  "setting_id": 159,
+  "ini_keys": [
+   "Voice Control"
+  ],
+  "section": "System Settings",
+  "handler": null,
+  "handler_addr": "0x444820",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9228,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44bc40",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9310,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44c0d0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9225,
+  "setting_id": 199,
+  "ini_keys": [
+   "Parking GPS"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetParkGps",
+  "handler_addr": "0x442e90",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9311,
+  "setting_id": 198,
+  "ini_keys": [
+   "Resolution Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetHdrStamp",
+  "handler_addr": "0x442ee0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9312,
+  "setting_id": 156,
+  "ini_keys": [
+   "Format Reminder"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetFormatRemind",
+  "handler_addr": "0x442f30",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9313,
+  "setting_id": 191,
+  "ini_keys": [
+   "Mic Button"
+  ],
+  "section": "Bluetooth Button Function",
+  "handler": "WiFiCmd_OnExeSetBtKey1",
+  "handler_addr": "0x442f80",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9314,
+  "setting_id": 192,
+  "ini_keys": [
+   "Action Button"
+  ],
+  "section": "Bluetooth Button Function",
+  "handler": "WiFiCmd_OnExeSetBtKey2",
+  "handler_addr": "0x442fd0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9321,
+  "setting_id": 65,
+  "ini_keys": [
+   "Time Format"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetHourFormat",
+  "handler_addr": "0x443020",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9315,
+  "setting_id": 195,
+  "ini_keys": [
+   "Driving Recording Storage"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetStorageRec",
+  "handler_addr": "0x443b60",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9316,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_StorageManage_Process",
+  "handler_addr": "0x44caf0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9317,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeFormatSSD",
+  "handler_addr": "0x442a90",
+  "dispatch": "wificmd",
+  "blocks_on": "0x10"
+ },
+ {
+  "cmd": 9326,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44d4f0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9327,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44d610",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9332,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44d580",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9322,
+  "setting_id": 210,
+  "ini_keys": [
+   "Interior Camera"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetSensor2Switch",
+  "handler_addr": "0x444510",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9347,
+  "setting_id": 224,
+  "ini_keys": [
+   "Rear Camera"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetSensor3Switch",
+  "handler_addr": "0x444440",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9318,
+  "setting_id": 28,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeMovieWDR",
+  "handler_addr": "0x4453b0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9319,
+  "setting_id": 202,
+  "ini_keys": [
+   "HDR Rear"
+  ],
+  "section": "HDR",
+  "handler": "WiFiCmd_OnExeSetHdrRear",
+  "handler_addr": "0x444380",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9333,
+  "setting_id": 201,
+  "ini_keys": [
+   "HDR Interior"
+  ],
+  "section": "HDR",
+  "handler": "WiFiCmd_OnExeSetHdrInterior",
+  "handler_addr": "0x4442c0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9320,
+  "setting_id": 203,
+  "ini_keys": [
+   "Parking HDR"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetHdrParkMode",
+  "handler_addr": "0x443070",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9323,
+  "setting_id": 160,
+  "ini_keys": [
+   "Daylight Saving"
+  ],
+  "section": "System Settings",
+  "handler": "WiFiCmd_OnExeSetDST",
+  "handler_addr": "0x4430d0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9328,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44d7a0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9329,
+  "setting_id": 211,
+  "ini_keys": [
+   "Rear LED"
+  ],
+  "section": "LED",
+  "handler": "WiFiCmd_OnExeSetRearLED",
+  "handler_addr": "0x4431e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9330,
+  "setting_id": 206,
+  "ini_keys": [
+   "Privacy Mode"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetPrivacyMode",
+  "handler_addr": "0x443d20",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9331,
+  "setting_id": 207,
+  "ini_keys": [
+   "Stamp Text Color"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetStampColor",
+  "handler_addr": "0x443230",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9302,
+  "setting_id": 189,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x4447e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9336,
+  "setting_id": 212,
+  "ini_keys": [
+   "Interior LED"
+  ],
+  "section": "LED",
+  "handler": "WiFiCmd_OnExeSetInteriorLED",
+  "handler_addr": "0x443280",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9337,
+  "setting_id": 213,
+  "ini_keys": [
+   "Rear Parking LED"
+  ],
+  "section": "Parking Mode LED",
+  "handler": "WiFiCmd_OnExeSetParkingRearLED",
+  "handler_addr": "0x4432d0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9338,
+  "setting_id": 214,
+  "ini_keys": [
+   "Interior Parking LED"
+  ],
+  "section": "Parking Mode LED",
+  "handler": "WiFiCmd_OnExeSetParkingInteriorLED",
+  "handler_addr": "0x443320",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9339,
+  "setting_id": 217,
+  "ini_keys": [
+   "Interior Cam Fisheye Mode"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetInteriorDewarpMode",
+  "handler_addr": "0x444210",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9340,
+  "setting_id": 215,
+  "ini_keys": [
+   "Parking Recording Storage"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetParkingStorage",
+  "handler_addr": "0x443c00",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9341,
+  "setting_id": 221,
+  "ini_keys": [
+   "Hybrid Parking mode"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetParkingHybirdMode",
+  "handler_addr": "0x4438b0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9342,
+  "setting_id": 222,
+  "ini_keys": [
+   "Multiplex Video"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetPipRecord",
+  "handler_addr": "0x443dd0",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9343,
+  "setting_id": 220,
+  "ini_keys": [
+   "Cut-off Voltage"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetBatteryProtection",
+  "handler_addr": "0x443930",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9356,
+  "setting_id": 233,
+  "ini_keys": [
+   "Cut-off BP100 Capacity"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetBp100BatteryProtection",
+  "handler_addr": "0x4439e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9344,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44dd10",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9345,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44dd60",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9346,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44ddd0",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9348,
+  "setting_id": 225,
+  "ini_keys": [
+   "Vehicle Voltage Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetVoltageStamp",
+  "handler_addr": "0x443370",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9357,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44de80",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9358,
+  "setting_id": 237,
+  "ini_keys": [
+   "Battery pack Capacity Stamp"
+  ],
+  "section": "Stamp",
+  "handler": "WiFiCmd_OnExeSetChargerStamp",
+  "handler_addr": "0x4433c0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9359,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnChangeBP100Mac",
+  "handler_addr": "0x442480",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9349,
+  "setting_id": 227,
+  "ini_keys": [
+   "Parking Impact Notification"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetParkImpactNotify",
+  "handler_addr": "0x443410",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9350,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44e000",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9362,
+  "setting_id": 236,
+  "ini_keys": [
+   "Low Power Impact Recording"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetGspGeofenceStandby",
+  "handler_addr": "0x4435e0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9351,
+  "setting_id": 228,
+  "ini_keys": [
+   "Backup Impact Parking Videos"
+  ],
+  "section": "Parking Recording",
+  "handler": "WiFiCmd_OnExeSetParkBackupSSD",
+  "handler_addr": "0x443460",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9352,
+  "setting_id": 230,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetExportSetting",
+  "handler_addr": "0x4434b0",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9353,
+  "setting_id": 231,
+  "ini_keys": [],
+  "section": null,
+  "handler": "WiFiCmd_OnExeSetImportSetting",
+  "handler_addr": "0x443500",
+  "dispatch": "wificmd",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9360,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": "XML_FileListUser_Set",
+  "handler_addr": "0x44e680",
+  "dispatch": "http",
+  "blocks_on": null
+ },
+ {
+  "cmd": 9361,
+  "setting_id": 235,
+  "ini_keys": [
+   "Dewarp Front Cam"
+  ],
+  "section": "Video Settings",
+  "handler": "WiFiCmd_OnExeSetDewarpFrontCam",
+  "handler_addr": "0x443550",
+  "dispatch": "wificmd",
+  "blocks_on": "0x1"
+ },
+ {
+  "cmd": 9364,
+  "setting_id": null,
+  "ini_keys": [],
+  "section": null,
+  "handler": null,
+  "handler_addr": "0x44e9f0",
+  "dispatch": "http",
+  "blocks_on": null
+ }
+]

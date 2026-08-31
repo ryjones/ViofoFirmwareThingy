@@ -3,6 +3,7 @@
 #   echo "VIOFO_ROOT=$(pwd -P)" > .env         # once: physical path for the bind mount
 #   docker compose build                        # once (and after a VM kernel update)
 #   docker compose run --rm ubi                 # both volumes under ~/viofo
+#   docker compose run --rm re                  # binutils + radare2 on the extracted binaries
 #
 # `kmod` inserts nandsim/ubi/ubifs into the colima VM kernel from inside a
 # container, so the VM's own filesystem is never modified -- `colima restart`
@@ -33,3 +34,14 @@ services:
     depends_on:
       kmod:
         condition: service_completed_successfully
+
+  re:
+    build:
+      context: .
+      dockerfile: docker/re.Dockerfile
+    image: viofo-re
+    volumes:
+      - ${VIOFO_ROOT:-.}:/work
+    working_dir: /work
+    stdin_open: true
+    tty: true
